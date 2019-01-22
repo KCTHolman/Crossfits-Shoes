@@ -4,7 +4,7 @@
 
     include "../includes/db_connection.php";        
 
-    $sql_querie = "SELECT * FROM `products` WHERE `products`.`product_brand`='reebok'";
+    $sql_querie = "SELECT * FROM `products` WHERE `products`.`product_brand`='nike'";
     
     $db_result = $conn->query($sql_querie);  
 
