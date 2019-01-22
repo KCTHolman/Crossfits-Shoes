@@ -19,7 +19,6 @@
         <?php include "includes/cards.php"; ?>
         </div>
 
-</div></div>
         <div class="box3"></div>
     </div>
 </body>

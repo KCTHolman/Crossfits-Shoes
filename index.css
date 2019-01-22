@@ -24,7 +24,8 @@ html{
     height: 100vh;
     background-color: bisque;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex
 }
 
 .cards{
@@ -32,7 +33,7 @@ html{
     flex-direction: column;
     background-color: azure;
     width: 300px;
-    height: 600px;
+    height: 500px;
     margin: 20px;
     align-items: center;
 
@@ -46,15 +47,19 @@ html{
 
 .product-image{
     width: 150px;
-    height: 300px;
+    height: 150px;
     border: red solid 1px;
+}
+
+.product-image img{
+    width:100%;
+    height:100%;
 }
 .product-name{
     width: 80%;
     height: 20px;
-
-
 }
+
 .product-comment{
     width: 80%;
     height: 100px;
