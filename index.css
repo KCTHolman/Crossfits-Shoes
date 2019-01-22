@@ -1,0 +1,68 @@
+.debug{
+    border: red solid 1px;
+}
+
+html{
+    margin: 0;
+    padding:0;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.box1{
+    width: 20%;
+    height: 100vh;
+}
+
+.box2{
+    width: 60%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+    align-items: center;
+
+}
+
+.cards-above{
+    width: 100%;
+    height: 50px;
+
+}
+
+.product-image{
+    width: 150px;
+    height: 300px;
+    border: red solid 1px;
+}
+.product-name{
+    width: 80%;
+    height: 20px;
+
+
+}
+.product-comment{
+    width: 80%;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+.box3{
+    width: 20%;
+    height: 100vh;
+}
