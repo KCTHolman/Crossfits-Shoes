@@ -23,7 +23,7 @@
         <div class="product-image "><img src="' . $row ['product_image'] . '"> 
         </div>
         <div class="product-name ">'  . $row ['product_name'] . '</div>
-        <div class="product-comment ">' . $row ['product_comment'] . '</div>
+        <div class="product-comment ">' . $row ['product_comment'] . '</div><a href="google.nl" class="button-product-info">Meer info</a>
         </div>';
     }       
 
