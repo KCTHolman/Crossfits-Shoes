@@ -82,6 +82,11 @@ html{
     text-decoration: none;
     color:black;
 }
+
+.product-price{
+    width:100px;
+    height:20px;
+}
 /* end info cards*/
 /* start info shoes*/
 
@@ -91,10 +96,48 @@ html{
     border:red solid 1px;
 }
 .info-shoe-right{
-    width:50%;
+    width:300px;
     height: 100%;
+    padding-left:50px;
+    padding-top:200px;
+}
+
+.image-shoe{
+    width: 100%;
+    height:40%;
+    margin-top:20px;
 }
 .box3{
     width: 15%;
     height: 100vh;
+}
+
+.box2-info{
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    margin-top:20px;
+}
+.product-name-info{
+    width:50px;
+    height:10px;
+    margin-top:20px;
+}
+.product-price-info{
+    width:20px;
+    height:10px;
+    margin-top:20px;
+}
+.product-size-info{
+    width:10px;
+    height:10px;
+    margin-top:20px;
+}
+.product-comment-info{
+    width:100px;
+    height:100px;
+    margin-top:20px;
+}
+.product-category-info{
+    
 }
