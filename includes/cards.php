@@ -4,7 +4,7 @@
 
     include "includes/db_connection.php";        
 
-    $sql_querie = "SELECT  product_name, product_image, product_comment, product_price FROM products";
+    $sql_querie = "SELECT  product_name, product_image, product_comment, product_price, product_brand FROM products";
     
     $db_result = $conn->query($sql_querie);  
 

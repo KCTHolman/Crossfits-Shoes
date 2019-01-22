@@ -16,6 +16,8 @@
     <div class="container1">
         <div class="box1"> 
            <a href="sort-by-price/sort-by-price.php">sorteren op prijs</a></div>
+           <a href="filter-by-brand/filter-by-brand-reebok.php">filter op Reebok</a>
+           <a href="filter-by-brand/filter-by-brand-nike.php">filter op Nike</a>
         <div class="box2">
 
         <?php include "includes/cards.php"; ?> <!-- sort-by-price.php of cards.php -->

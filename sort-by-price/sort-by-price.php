@@ -14,7 +14,9 @@
 </head>
 <body>
     <div class="container1">
-        <div class="box1"></div>
+        <div class="box1">
+            <a href="../index.php">niet sorteren</a>
+        </div>
         <div class="box2">
         <?php include "../includes/sort-by-price.php"; ?> <!-- sort-by-price.php of cards.php -->
         </div>

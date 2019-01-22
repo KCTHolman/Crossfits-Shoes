@@ -14,10 +14,11 @@
 </head>
 <body>
     <div class="container1">
-        <div class="box1"></div>
+        <div class="box1">
+            <a href="../index.php">niet sorteren</a>
+        </div>
         <div class="box2">
-            <a href="../">sorteren op prijs</a>
-        <?php include "../includes/cards.php"; ?> <!-- sort-by-price.php of cards.php -->
+        <?php include "../includes/filter-by-brand-reebok.php"; ?> <!-- sort-by-price.php of cards.php -->
         </div>
 
         <div class="box3"></div>
