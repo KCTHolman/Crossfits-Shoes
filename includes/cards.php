@@ -4,7 +4,7 @@
 
     include "includes/db_connection.php";        
 
-    $sql_querie = "SELECT  product_name, product_image, product_comment FROM products";
+    $sql_querie = "SELECT  product_name, product_image, product_comment, product_price, product_brand FROM products";
     
     $db_result = $conn->query($sql_querie);  
 
@@ -23,7 +23,8 @@
         <div class="product-image "><img src="' . $row ['product_image'] . '"> 
         </div>
         <div class="product-name ">'  . $row ['product_name'] . '</div>
-        <div class="product-comment ">' . $row ['product_comment'] . '</div>
+        <div class="product-comment ">' . $row ['product_comment'] . '</div><a href="google.nl" class="button-product-info">Meer info</a>
+        <div class="product-price">' . $row ['product_price'] . '</div>
         </div>';
     }       
 

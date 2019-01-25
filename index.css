@@ -11,31 +11,35 @@ html{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    justify-content: center;
 }
 
 .box1{
-    width: 20%;
+    width: 15%;
     height: 100vh;
 }
 
 .box2{
-    width: 60%;
-    height: 100vh;
+    width: 70%;
+    height: 100%;
     background-color: bisque;
     display: flex;
     flex-direction: row;
-    flex
+    flex-wrap: wrap;
+    justify-content: center;
+    align content: center;
 }
-
+/* info cards*/
 .cards{
     display: flex;
     flex-direction: column;
     background-color: azure;
     width: 300px;
-    height: 500px;
+    height: 450px;
     margin: 20px;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -46,7 +50,7 @@ html{
 }
 
 .product-image{
-    width: 150px;
+    width: 200px;
     height: 150px;
     border: red solid 1px;
 }
@@ -58,16 +62,82 @@ html{
 .product-name{
     width: 80%;
     height: 20px;
+    margin-top: 10px;
 }
 
 .product-comment{
+    margin-top:20px;
     width: 80%;
     height: 100px;
     background-color: aquamarine;
+    padding:5px;
 
 }
 
+.button-product-info{
+    width:100px;
+    height:20px;
+    border:black solid 1px;
+    margin-top:20px;
+    text-decoration: none;
+    color:black;
+}
+
+.product-price{
+    width:100px;
+    height:20px;
+}
+/* end info cards*/
+/* start info shoes*/
+
+.info-shoe-left{
+    width:50%;
+    height: 100%;
+    border:red solid 1px;
+}
+.info-shoe-right{
+    width:300px;
+    height: 100%;
+    padding-left:50px;
+    padding-top:200px;
+}
+
+.image-shoe{
+    width: 100%;
+    height:40%;
+    margin-top:20px;
+}
 .box3{
-    width: 20%;
+    width: 15%;
     height: 100vh;
+}
+
+.box2-info{
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    margin-top:20px;
+}
+.product-name-info{
+    width:50px;
+    height:10px;
+    margin-top:20px;
+}
+.product-price-info{
+    width:20px;
+    height:10px;
+    margin-top:20px;
+}
+.product-size-info{
+    width:10px;
+    height:10px;
+    margin-top:20px;
+}
+.product-comment-info{
+    width:100px;
+    height:100px;
+    margin-top:20px;
+}
+.product-category-info{
+    
 }
